@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(207, 209, 197);  
+
+}
+
+header {
+    padding: 6px;
+    text-align: center;
+    background: rgba(245, 233, 220, 0.575);
+    color:#85785f;
+    font-size: 40px;
+    border-radius: 25px; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* The Play Area */
+.container {
+    height: 100px;
+    width: 340px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(245, 233, 220, 0.575);
+    border: 5px solid #afa593;
+    border-radius: 25px;
+    font-size: 75px;
+    color: rgb(40, 74, 61); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.square:hover {
+    cursor: pointer;
+    background-color: rgba(84, 138, 118, 0.642);
+}
+
+/*  The shown message  */
+#msge {
+    height: 38px;
+    width: 280px;
+    background-color: rgba(64, 114, 96, 0.642);
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center; 
+    position: relative;
+    top: 16px;
+}
+
+/*The Play Agin button */
+button {
+    outline: none;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(64, 114, 96, 0.642);
+    border-radius: 25px; 
+    position: relative;
+    top: 50px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgba(64, 114, 96, 0.4);
+}
+.win{
+    background-color:rgba(64, 114, 96, 0.4); 
+    color: rgb(255, 255, 255); 
+    border: 5px solid rgba(64, 114, 96, 0.4);  
+}
+

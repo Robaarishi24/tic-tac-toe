@@ -14,6 +14,7 @@ header {
 
 }
 
+
 /* The Play Area */
 .container {
     height: 100px;
@@ -39,6 +40,7 @@ header {
     background-color: rgba(84, 138, 118, 0.642);
 }
 
+
 /*  The shown message  */
 #msge {
     height: 38px;
@@ -51,6 +53,7 @@ header {
     position: relative;
     top: 16px;
 }
+
 
 /*The Play Agin button */
 button {
@@ -70,6 +73,10 @@ button:hover {
     cursor: pointer;
     background-color: rgba(64, 114, 96, 0.4);
 }
+
+
+
+/* class to change the color of squares for the winner */
 .win{
     background-color:rgba(64, 114, 96, 0.4); 
     color: rgb(255, 255, 255); 
